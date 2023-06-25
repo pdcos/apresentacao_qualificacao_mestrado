@@ -8,6 +8,7 @@ institute:
     - "Coorientador: Prof. Filipe Ieda Fazanaro"
 date: \today
 documentclass: beamer
+bibliography: bibliografia.bib
 ---
 
 # Introdução
@@ -16,10 +17,19 @@ documentclass: beamer
 # Conceito de $\Delta V$
 
 - Teste
+- 
+$$
+\Delta V = I_{sp} g_{0} \ln{\frac{m_{i}}{m_{f}}}
+$$
 
 # Conclusion
 
 - And the answer is...
 - $f(x)=\sum_{n=0}^\infty\frac{f^{(n)}(a)}{n!}(x-a)^n$    
 
-- 
+- Conforme mencionado em [@depsoref]
+
+# Referências
+
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+\bibliography{bibliografia.bib}
